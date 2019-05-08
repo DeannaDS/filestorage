@@ -5,7 +5,7 @@
 jQuery( document ).ready(function() {
     //never cache ajax
     jQuery.ajaxSetup({ cache: false });
-    
+    console.log('ran');
     var map = L.map('map', {
         minZoom: 5,
         maxZoom: 7
